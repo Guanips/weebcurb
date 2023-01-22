@@ -88,6 +88,33 @@ nav a {
     padding-right: 15px;
 }
 
+.articulosDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleCard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 185px;
+    margin-bottom: 20px;
+    
+}
+
+.articleCard h3 {
+    color: #30E3CA;
+    background-color: #40514E;
+    font-size: 15px;
+    margin: 0%;
+    padding: 5px;
+}
+
+.articleCard img {
+    overflow: hidden;
+}
+
 @media screen and (min-width: 481) {
     
 }
