@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: #40514E;
+    margin: 0;
+    align-items: center;
+    
+}
+
+h1 {
+    margin: 0;
+    color: #30E3CA;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    padding-right: 20px;
+    color: #E4F9F5;
+
+}
+
+
+.navEndElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.bienvenida {
+    background-color: #40514E;
+    color: #30E3CA;
+    text-align: center;
+    margin: 20px;
+    padding:5px;
+}
+
+.bienvenida h2{
+    margin: 0%;
+    padding-bottom: 5px;
+}
+
+.bienvenida p{
+    margin: 0px;
+}
+
+.botonesInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonesInicioDobles {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.botonesInicio a {
+    background-color: #40514E;
+    color: #30E3CA;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.izquierda /*boton de la izquierda de los botones del inicio dobles*/{
+    margin-right: 20px;
+}
+
+.sectionLabel {
+    color: #30E3CA;
+    background-color: #40514E;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 481) {
+    
+}
